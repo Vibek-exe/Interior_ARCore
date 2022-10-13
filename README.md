@@ -12,9 +12,9 @@ https://user-images.githubusercontent.com/78261707/195645378-064f7250-fa90-47db-
 
 | Splash | Home |
 | :---: | :---: |
-| <img src="/splash.jpeg" width="200"/> | <img src="/home.jpeg" width="200" /> |
-| Sofa | Chair |
-| <img src="/sofa.jpeg" width="200"/> | <img src="/chair.jpeg" width="200" /> |
+| <img src="/splash.jpg" width="200"/> | <img src="/home.jpg" width="200" /> |
+| Lamp | Chair |
+| <img src="/lamp.jpg" width="200"/> | <img src="/chair.jpg" width="200" /> |
 
 # Technologies used
 1. Android Studio kotlin
