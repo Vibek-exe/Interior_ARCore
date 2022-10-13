@@ -1,9 +1,9 @@
-package `in`.kay.furture
+package `in`.vivek.interior
 
-import `in`.kay.furture.screens.DetailScreen
-import `in`.kay.furture.screens.HomeScreen
-import `in`.kay.furture.screens.SplashScreen
-import `in`.kay.furture.ui.theme.FurtureTheme
+import `in`.vivek.interior.screens.DetailScreen
+import `in`.vivek.interior.screens.HomeScreen
+import `in`.vivek.interior.screens.SplashScreen
+import `in`.vivek.interior.ui.theme.FurtureTheme
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

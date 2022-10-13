@@ -1,6 +1,6 @@
-package `in`.kay.furture.ui.theme
+package `in`.vivek.interior.ui.theme
 
-import `in`.kay.furture.R
+import `in`.vivek.interior.R
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font

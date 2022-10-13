@@ -1,4 +1,4 @@
-package `in`.kay.furture.ui.theme
+package `in`.vivek.interior.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

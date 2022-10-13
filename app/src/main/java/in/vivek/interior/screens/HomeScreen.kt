@@ -1,11 +1,11 @@
-package `in`.kay.furture.screens
+package `in`.vivek.interior.screens
 
-import `in`.kay.furture.R
-import `in`.kay.furture.SharedViewModel
-import `in`.kay.furture.models.FurnitureModel
-import `in`.kay.furture.ui.theme.colorPurple
-import `in`.kay.furture.ui.theme.colorWhite
-import `in`.kay.furture.utils.*
+import `in`.vivek.interior.R
+import `in`.vivek.interior.SharedViewModel
+import `in`.vivek.interior.models.FurnitureModel
+import `in`.vivek.interior.ui.theme.colorPurple
+import `in`.vivek.interior.ui.theme.colorWhite
+import `in`.vivek.interior.utils.*
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -58,19 +58,19 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
             Text(
                 text = "Inte",
                 modifier = Modifier.padding(start = 8.dp),
-                style = `in`.kay.furture.ui.theme.Typography.h1,
+                style = `in`.vivek.interior.ui.theme.Typography.h1,
             )
             Text(
                 text = "rior",
                 color = colorPurple,
-                style = `in`.kay.furture.ui.theme.Typography.h1,
+                style = `in`.vivek.interior.ui.theme.Typography.h1,
             )
 
         }
 
         Text(
             text = "Browse by categories",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 22.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp)
         )
@@ -85,7 +85,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
         }
         Text(
             text = "Recommended for you",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 18.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp, end = 24.dp)
         )
@@ -100,7 +100,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
         }
         Text(
             text = "Royal Chairs",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 18.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp)
         )
@@ -120,7 +120,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
         }
         Text(
             text = "Couch",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 18.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp)
         )
@@ -140,7 +140,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
         }
         Text(
             text = "Home decors",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 18.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp)
         )
@@ -160,7 +160,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
         }
         Text(
             text = "Office needs",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 18.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp)
         )
@@ -180,7 +180,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
         }
         Text(
             text = "Tables",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 18.sp,
             modifier = Modifier.padding(top = 32.dp, start = 24.dp)
         )
@@ -227,7 +227,7 @@ fun Cards(
         )
         Text(
             text = category.name ?: "null",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 16.sp,
             textAlign = TextAlign.Center,
             maxLines = 1,
@@ -236,7 +236,7 @@ fun Cards(
         )
         Text(
             text = "₹ ${category.price}/-",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 12.sp,
             color = Color(0xFF171717).copy(alpha = 0.4f),
             textAlign = TextAlign.Center,
@@ -278,14 +278,14 @@ fun CategoryCard(category: FurnitureModel, index: Int) {
         )
         Text(
             text = category.name ?: "null",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 16.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier.layoutId("tv_name")
         )
         Text(
             text = (getSize(index) - 1).toString() + "+ products",
-            style = `in`.kay.furture.ui.theme.Typography.h1,
+            style = `in`.vivek.interior.ui.theme.Typography.h1,
             fontSize = 12.sp,
             color = Color(0xFF171717).copy(alpha = 0.4f),
             textAlign = TextAlign.Center,

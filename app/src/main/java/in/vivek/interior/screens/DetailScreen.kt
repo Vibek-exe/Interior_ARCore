@@ -1,10 +1,10 @@
-package `in`.kay.furture.screens
+package `in`.vivek.interior.screens
 
-import `in`.kay.furture.SharedViewModel
-import `in`.kay.furture.ui.theme.Typography
-import `in`.kay.furture.ui.theme.colorBlack
-import `in`.kay.furture.ui.theme.colorPurple
-import `in`.kay.furture.ui.theme.colorWhite
+import `in`.vivek.interior.SharedViewModel
+import `in`.vivek.interior.ui.theme.Typography
+import `in`.vivek.interior.ui.theme.colorBlack
+import `in`.vivek.interior.ui.theme.colorPurple
+import `in`.vivek.interior.ui.theme.colorWhite
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.net.Uri
@@ -23,7 +23,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.capitalize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex

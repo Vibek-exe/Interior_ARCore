@@ -1,6 +1,6 @@
-package `in`.kay.furture
+package `in`.vivek.interior
 
-import `in`.kay.furture.models.FurnitureModel
+import `in`.vivek.interior.models.FurnitureModel
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

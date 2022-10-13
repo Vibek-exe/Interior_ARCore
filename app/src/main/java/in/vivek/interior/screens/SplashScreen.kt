@@ -1,9 +1,7 @@
-package `in`.kay.furture.screens
+package `in`.vivek.interior.screens
 
-import `in`.kay.furture.ui.theme.colorBlack
-import `in`.kay.furture.ui.theme.colorPurple
-import `in`.kay.furture.ui.theme.colorWhite
-import `in`.kay.furture.ui.theme.colorp
+import `in`.vivek.interior.ui.theme.colorPurple
+import `in`.vivek.interior.ui.theme.colorWhite
 import androidx.compose.animation.*
 import androidx.compose.animation.core.FastOutLinearInEasing
 import androidx.compose.animation.core.tween
@@ -20,7 +18,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 
 
 @Composable
@@ -82,12 +79,12 @@ fun SplashScreen(navController: NavHostController) {
                     text = "Inte",
                     color = colorWhite,
                     modifier = Modifier.padding(start = 0.dp),
-                    style = `in`.kay.furture.ui.theme.Typography.h1
+                    style = `in`.vivek.interior.ui.theme.Typography.h1
                 )
                 Text(
                     text = "rior",
                     color = colorWhite,
-                    style = `in`.kay.furture.ui.theme.Typography.h1
+                    style = `in`.vivek.interior.ui.theme.Typography.h1
                 )
             }
         }

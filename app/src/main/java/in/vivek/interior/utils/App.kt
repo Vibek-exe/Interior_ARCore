@@ -1,4 +1,4 @@
-package `in`.kay.furture.utils
+package `in`.vivek.interior.utils
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

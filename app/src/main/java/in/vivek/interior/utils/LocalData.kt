@@ -1,8 +1,7 @@
-package `in`.kay.furture.utils
+package `in`.vivek.interior.utils
 
-import `in`.kay.furture.R
-import `in`.kay.furture.models.FurnitureModel
-import kotlin.random.Random
+import `in`.vivek.interior.R
+import `in`.vivek.interior.models.FurnitureModel
 
 fun getCategories() = listOf(
     FurnitureModel("chair", R.drawable.ic_chair),
