@@ -1,5 +1,5 @@
-# Furture
-> A dummy application used for POC for Future of Furniture application using AR serivces provided by Google.
+# Interior
+> A dummy application used for POC for Interior Design application using AR serivces provided by Google.
 
 # Demo
 
