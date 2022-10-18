@@ -1,7 +1,9 @@
 package `in`.vivek.interior.screens
 
-import `in`.vivek.interior.ui.theme.colorPurple
+import `in`.vivek.interior.R
+import `in`.vivek.interior.ui.theme.colorgreeen
 import `in`.vivek.interior.ui.theme.colorWhite
+import `in`.vivek.interior.ui.theme.colorpurple
 import androidx.compose.animation.*
 import androidx.compose.animation.core.FastOutLinearInEasing
 import androidx.compose.animation.core.tween
@@ -15,6 +17,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import kotlinx.coroutines.delay
@@ -40,15 +43,18 @@ fun SplashScreen(navController: NavHostController) {
     Row(
         modifier = Modifier
             .fillMaxSize()
-            .background(colorPurple),
+            .background(colorpurple),
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
         Icon(
-            imageVector = Icons.Outlined.ShoppingCart,
+
+            painter = painterResource(R.drawable.hom),
+
+            //imageVector = Icons.Outlined.ShoppingCart,
             contentDescription = "null",
             tint = colorWhite,
-            modifier = Modifier.size(32.dp)
+            modifier = Modifier.size(40.dp)
         )
         AnimatedVisibility(
             visible = isAnimStart,

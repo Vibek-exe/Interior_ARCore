@@ -87,4 +87,7 @@ dependencies {
 
     implementation "androidx.navigation:navigation-compose:$nav_version"
     implementation 'io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.0.7'
+
+
+
 }

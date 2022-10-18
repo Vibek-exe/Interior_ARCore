@@ -3,7 +3,7 @@ package `in`.vivek.interior.screens
 import `in`.vivek.interior.SharedViewModel
 import `in`.vivek.interior.ui.theme.Typography
 import `in`.vivek.interior.ui.theme.colorBlack
-import `in`.vivek.interior.ui.theme.colorPurple
+import `in`.vivek.interior.ui.theme.colorgreeen
 import `in`.vivek.interior.ui.theme.colorWhite
 import android.content.Intent
 import android.graphics.BitmapFactory
@@ -38,7 +38,7 @@ fun DetailScreen(viewModel: SharedViewModel) {
     val furnitureModel = viewModel.data
     val context = LocalContext.current
     var btnColor by remember {
-        mutableStateOf(colorPurple)
+        mutableStateOf(colorgreeen)
     }
     ConstraintLayout(
         modifier = Modifier

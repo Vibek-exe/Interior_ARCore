@@ -32,8 +32,10 @@ val Typography = Typography(
 )
 
 
+
 fun gilroy() = FontFamily(
     Font(R.font.font_gilroy_bold, FontWeight.Bold),
     Font(R.font.font_gilroy_medium, FontWeight.Medium),
     Font(R.font.font_gilroy_semi_bold, FontWeight.SemiBold),
 )
+

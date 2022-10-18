@@ -3,7 +3,7 @@ package `in`.vivek.interior.screens
 import `in`.vivek.interior.R
 import `in`.vivek.interior.SharedViewModel
 import `in`.vivek.interior.models.FurnitureModel
-import `in`.vivek.interior.ui.theme.colorPurple
+import `in`.vivek.interior.ui.theme.colorgreeen
 import `in`.vivek.interior.ui.theme.colorWhite
 import `in`.vivek.interior.utils.*
 import androidx.activity.compose.BackHandler
@@ -50,10 +50,13 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                imageVector = Icons.Outlined.ShoppingCart,
+                painter = painterResource(R.drawable.hom),
+
+
+                //imageVector = Icons.Outlined.ShoppingCart,
                 contentDescription = "null",
-                tint = colorPurple,
-                modifier = Modifier.size(32.dp)
+                tint = colorgreeen,
+                modifier = Modifier.size(35.dp).padding(top = 0.dp).align(Alignment.CenterVertically)
             )
             Text(
                 text = "Inte",
@@ -62,7 +65,7 @@ fun HomeScreen(navController: NavHostController, viewModel: SharedViewModel) {
             )
             Text(
                 text = "rior",
-                color = colorPurple,
+                color = colorgreeen,
                 style = `in`.vivek.interior.ui.theme.Typography.h1,
             )
 
