@@ -12,13 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Furture"
+        android:theme="@style/Theme.Interior"
         tools:targetApi="31">
         <activity
             android:name="in.vivek.interior.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Furture">
+            android:theme="@style/Theme.Interior">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
