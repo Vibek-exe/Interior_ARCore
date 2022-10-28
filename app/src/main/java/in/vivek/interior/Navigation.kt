@@ -38,7 +38,7 @@ fun Navigation(
     ) {
 
 
-        composable(route="home") { HomeScreen(navController, viewModel) }
+        composable("home") { HomeScreen(navController, viewModel) }
         composable("detail") { DetailScreen(viewModel) }
         composable("splash") { SplashScreen(navController = navController) }
 
@@ -77,7 +77,6 @@ fun Navigation(
             }
 
         }
-
 
 
     }
